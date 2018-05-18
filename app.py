@@ -35,6 +35,7 @@ def menu_1():
     while(again == 1):
         clear()
         print(".::Purchase Package Menu::.")
+        print(".::Service ID XL XTRA KUOTA : 8110577::.")
         msisdn = str(input("Input your MSISDN >> "))
         po = str(input("Input your OTP >> "))
         serviceid = str(input("Input your Service ID >> "))
