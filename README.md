@@ -36,5 +36,6 @@ $ python app.py
 
 ### Examples
 
-All examples can be found [here](https://github.com/albertoanggi/xl-py/tree/master/examples)
+All examples can be found [here](https://github.com/albertoanggi/xl-py/tree/master/examples).
+
 Original Script from https://github.com/albertoanggi/xl-py.
