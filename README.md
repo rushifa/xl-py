@@ -19,8 +19,8 @@ $ pkg update
 $ pkg install python
 $ pkg install git
 $ pip install requests
-$ git clone https://github.com/albertoanggi/xl-py
-$ pip install -r requrements.txt
+$ git clone https://github.com/rushifa/xl-py or https://github.com/albertoanggi/xl-py
+$ pip install -r requirements.txt
 $ chmod +x app.py
 $ python app.py
 ```
