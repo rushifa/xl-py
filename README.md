@@ -26,7 +26,6 @@ $ pip install -r requirements.txt
 $ chmod +x app.py
 $ python app.py
 ```
-Original Script from https://github.com/albertoanggi/xl-py
 
 ## Usage
 
@@ -38,3 +37,4 @@ $ python app.py
 ### Examples
 
 All examples can be found [here](https://github.com/albertoanggi/xl-py/tree/master/examples).
+Original Script from https://github.com/albertoanggi/xl-py
