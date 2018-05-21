@@ -19,7 +19,7 @@ $ pkg update
 $ pkg install python
 $ pkg install git
 $ pip install requests
-$ pip install upgrade pip
+$ pip install --upgrade pip
 $ git clone https://github.com/rushifa/xl-py
 $ cd xl-py
 $ pip install -r requirements.txt
