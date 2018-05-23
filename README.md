@@ -17,7 +17,7 @@ Installation is simple. It can be installed from git using the following command
 $ pkg upgrade -y
 $ pkg update
 $ pkg install python -y
-$ pkg install git
+$ pkg install git -y
 $ pip install requests
 $ pip install --upgrade pip
 $ git clone https://github.com/rushifa/xl-py
