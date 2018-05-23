@@ -7,7 +7,7 @@ from xlpy import *
 def main_menu():
     clear()
     print(
-        "   ➡ XL - Direct Purchase Package ⬅️" +
+        "   .::XL - Direct Purchase Package::." +
         "\nPlease choose the menu you want to start:"
         "\n[1] Purchase Package" + 
         "\n[2] Request OTP Code" +
@@ -34,7 +34,7 @@ def menu_1():
     again = 1
     while(again == 1):
         clear()
-        print("➡ Purchase Package Menu ⬅️")
+        print(".::Purchase Package Menu::.")
         print("~Service ID XL XTRA KUOTA : 8110577~")
         msisdn = str(input("Input your MSISDN >> "))
         po = str(input("Input your OTP >> "))
@@ -56,7 +56,7 @@ def menu_2():
     again = 1
     while(again == 1):
         clear()
-        print("➡ OTP Code Menu ⬅️")
+        print(".::OTP Code Menu::.")
         msisdn = str(input("Input your MSISDN >> "))
         xl = XL(msisdn)
         print(xl.reqOTP()['message'])
@@ -68,7 +68,7 @@ def menu_3():
     again = 1
     while(again == 1):
         clear()
-        print("➡ Password Menu ⬅️")
+        print(".::Password Menu::.")
         msisdn = str(input("Input your MSISDN >> "))
         xl = XL(msisdn)
         print(xl.reqPassword()['message'])
