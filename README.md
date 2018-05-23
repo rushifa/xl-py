@@ -14,9 +14,9 @@ The xlpy module requires Termux App you can download from [here](https://play.go
 
 Installation is simple. It can be installed from git using the following command after open Termux:
 ```sh
-$ pkg upgrade
+$ pkg upgrade -y
 $ pkg update
-$ pkg install python
+$ pkg install python -y
 $ pkg install git
 $ pip install requests
 $ pip install --upgrade pip
